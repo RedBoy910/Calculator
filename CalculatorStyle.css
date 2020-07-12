@@ -1,0 +1,89 @@
+#calculatorWrapper
+{
+    display: block;
+    height: 700px;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 100px;
+    border: 7px solid black;
+    background-color: lightgrey;
+}
+
+#calculator
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
+#display
+{
+    display: block;
+    margin: 0 auto;
+    margin-top: 5%;
+    border: 3px solid black;
+    width: 90%;
+    height: 25%;
+}
+
+#upperDisplay
+{
+    background-color: gray;
+    width: 100%;
+    height: 40%;
+    font-size: 20px;
+}
+
+#lowerDisplay
+{
+    background-color: white;
+    width: 100%;
+    height: 60%;
+    font-size: 50px;
+}
+
+.calcButton
+{
+    font-size: 30px;
+    width: 99%;
+    border: 1px solid black;
+}
+
+#operatorButtons
+{
+    display: block;
+    margin-top: 5%;
+    margin: 0 auto;
+    width: 90%;
+    height: 25%;
+}
+
+#mathematicalOperators
+{
+    margin-top: 5%;
+    width: 100%;
+    height: 50%;
+}
+
+
+#digitWrapper
+{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+    height: 35%;
+}
+
+#digitButtons
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#buttonRow
+{
+    margin-top: 4%;
+}
+
+
